@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+AU+VIC+WA+NT+Arrows&family=Lobster&family=Montserrat+Underline:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lobster", sans-serif;
+    text-align: center;
+}
+
+.intro-image {
+    background-attachment: fixed;
+    background-image: url('/img/img5.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.intro-image__text a {
+    background-color: #73563790;
+    border: 2px solid #a591489d; 
+    color: 
+    #cdbba8;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+.intro-image__text a:hover {
+transform: scale(1.2);
+}
+
+.intro-text {
+background-color: #9a7e57;
+color: #0a0605 ;
+height: 300px;
+margin-top: -5rem;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 0 15rem;
+padding-top: 5rem;
+clip-path: polygon(51% 14%, 100% 0, 100% 43%, 100% 100%, 68% 100%, 32% 100%, 0 100%, 0% 43%, 0 0);
+}
+
+.intro-text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.packaging-image {
+    background-attachment: fixed;
+    background-image: url('/img/img6.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.packaging-image__text a {
+
+    background-color: #eed2bc8b;
+    border: 2px solid #eed2bc; 
+    color: #6c4438;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+
+.packaging-image__text a:hover {
+ transform: scale(1.2);
+
+}
+.packaging-text { 
+    background-color: #6c4438;
+color: #eed2bc;
+height: 300px;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 0 15rem;
+}
+
+.packaging-text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+.tutorials-image {
+    background-attachment: fixed;
+    background-image: url('/img/img7.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tutorials-image__text a {
+
+    background-color: #fda94240;
+    border: 2px solid #fda932; 
+    color: #bb8f13;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+
+.tutorials-image__text a:hover {
+    transform: scale(1.2);
+   }
+
+   .origin-text { 
+    background-color: #8d551ddd;
+color: #22221f ;
+height: 250px;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 0 15rem;
+}
+
+.origin-text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.footer {
+    height: 250px;
+    background-color: #8d551df0;
+    color: #22221f;
+    font-size: 2rem;
+    padding-top: 4rem;
+}
+
+
+.footer ul li{
+    display: inline-block;
+    margin: 1rem;
+}
+.footer ul li a {
+color:#22221f;
+text-decoration: none;
+}
+
+.footer ul li :hover {
+    transform: scale(1.3);
+}
